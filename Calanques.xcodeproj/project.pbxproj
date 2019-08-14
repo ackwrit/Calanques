@@ -56,15 +56,40 @@
 		F62B80A62304A82B0020AD9A /* Calanques */ = {
 			isa = PBXGroup;
 			children = (
+				F62B80BB2304B0A90020AD9A /* modèles */,
+				F62B80BC2304B0B90020AD9A /* vue */,
+				F62B80BD2304B0C80020AD9A /* controller */,
 				F62B80A72304A82B0020AD9A /* AppDelegate.swift */,
-				F62B80A92304A82B0020AD9A /* FirstViewController.swift */,
-				F62B80AB2304A82B0020AD9A /* SecondViewController.swift */,
 				F62B80AD2304A82B0020AD9A /* Main.storyboard */,
 				F62B80B02304A82C0020AD9A /* Assets.xcassets */,
 				F62B80B22304A82C0020AD9A /* LaunchScreen.storyboard */,
 				F62B80B52304A82C0020AD9A /* Info.plist */,
 			);
 			path = Calanques;
+			sourceTree = "<group>";
+		};
+		F62B80BB2304B0A90020AD9A /* modèles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "modèles";
+			path = "modèles";
+			sourceTree = "<group>";
+		};
+		F62B80BC2304B0B90020AD9A /* vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vue;
+			sourceTree = "<group>";
+		};
+		F62B80BD2304B0C80020AD9A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F62B80A92304A82B0020AD9A /* FirstViewController.swift */,
+				F62B80AB2304A82B0020AD9A /* SecondViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
