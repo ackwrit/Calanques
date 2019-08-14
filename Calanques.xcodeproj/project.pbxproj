@@ -13,6 +13,8 @@
 		F62B80AF2304A82B0020AD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62B80AD2304A82B0020AD9A /* Main.storyboard */; };
 		F62B80B12304A82C0020AD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62B80B02304A82C0020AD9A /* Assets.xcassets */; };
 		F62B80B42304A82C0020AD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F62B80B22304A82C0020AD9A /* LaunchScreen.storyboard */; };
+		F62B80C72304B9FA0020AD9A /* Calanque.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62B80C62304B9FA0020AD9A /* Calanque.swift */; };
+		F62B80C92304BC070020AD9A /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62B80C82304BC070020AD9A /* CalanqueCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F62B80B02304A82C0020AD9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F62B80B32304A82C0020AD9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F62B80B52304A82C0020AD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F62B80C62304B9FA0020AD9A /* Calanque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanque.swift; sourceTree = "<group>"; };
+		F62B80C82304BC070020AD9A /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		F62B80BB2304B0A90020AD9A /* modèles */ = {
 			isa = PBXGroup;
 			children = (
+				F62B80C62304B9FA0020AD9A /* Calanque.swift */,
+				F62B80C82304BC070020AD9A /* CalanqueCollection.swift */,
 			);
 			name = "modèles";
 			path = "modèles";
@@ -165,7 +171,9 @@
 			files = (
 				F62B80AC2304A82B0020AD9A /* SecondViewController.swift in Sources */,
 				F62B80A82304A82B0020AD9A /* AppDelegate.swift in Sources */,
+				F62B80C92304BC070020AD9A /* CalanqueCollection.swift in Sources */,
 				F62B80AA2304A82B0020AD9A /* FirstViewController.swift in Sources */,
+				F62B80C72304B9FA0020AD9A /* Calanque.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
